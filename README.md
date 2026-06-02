@@ -2,6 +2,7 @@
 
 ## Objective
 Analyze stock price data to understand return, volatility, and correlation between assets.
+**Data**: AAPL, MSFT, TSLA | Jan–Apr 2026 | Source: Yahoo Finance via yfinance
 
 ## Tools
 Python, pandas, matplotlib, seaborn, yfinance
@@ -19,6 +20,8 @@ Python, pandas, matplotlib, seaborn, yfinance
 
 
 ## Results
-- Identified differences in risk and return across stocks
-- Observed that most daily returns are close to zero
-- Found varying levels of correlation between assets, implying diversification potential
+- AAPL mean daily return: -0.05% | daily volatility: 1.56% (Jan–Apr 2026)
+- AAPL/MSFT/TSLA correlation: moderate to high positive correlation 
+  (see heatmap) — limited diversification benefit within this portfolio
+- Return distribution approximately normal with slight negative skew
+  
